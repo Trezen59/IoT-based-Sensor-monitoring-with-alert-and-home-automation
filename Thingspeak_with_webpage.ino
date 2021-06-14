@@ -38,8 +38,8 @@ String header; // This stores the HTTP request
 int relay1 = D1;
 int relay2 = D2;
 
-String relay1state = "off";// state of relayliance1
-String relay2state = "off";// state of relayliance2
+String relay1state = "off";
+String relay2state = "off";
 
 void setup() {
   Serial.begin(115200);
